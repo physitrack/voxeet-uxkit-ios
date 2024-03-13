@@ -12,6 +12,6 @@
     public var speaker = VTUXSpeakerConfiguration()
     public var actionBar = VTUXActionBarConfiguration()
     
-    @available(iOS, obsoleted: 1, renamed: "participants") // Deprecated: 1.2.7.
+    @available(iOS, deprecated, renamed: "participants") // Deprecated: 1.2.7.
     public var users = VTUXParticipantsConfiguration()
 }
